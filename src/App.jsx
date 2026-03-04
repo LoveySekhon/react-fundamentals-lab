@@ -1,0 +1,128 @@
+//UseState 
+// import { useState } from "react";
+
+// function App(){
+//     const[count , setCount] = useState(5);
+//     console.log(count);
+
+//     function addTen(){
+//         setCount(count + 10);
+//     }
+//     // console.log(count);
+
+//     function reset(){
+//         setCount(5);
+//     }
+
+//     return(
+//         <div>
+//             <h1>
+//                 {count}
+//             </h1>
+//             <button onClick={addTen}>Add 10</button>
+//             <button onClick={reset}>Reset</button>
+//         </div>
+//     );
+// }
+
+// export default App;
+
+
+//UseState and Array
+
+// import { useState } from "react";
+
+// function App(){
+//     const[items , setItems] = useState([]);
+//     console.log(items);
+
+//     function addItem(){
+//         setItems(prev => [...prev , prev.length + 1]);
+//     }
+//     // console.log(count);
+
+//     function clearItems(){
+//         setItems([]);
+//     }
+
+//     return(
+//         <div>
+//             <button onClick={addItem}>Add an Item</button>
+//             <button onClick={clearItems}>Clear</button>
+
+//             {items.map((item, index)=>(
+//               <p key = {index}>{item}</p>
+//             ))}
+//         </div>
+//     );
+// }
+
+// export default App;
+
+
+
+//Removing an item from array using filter
+// import { useState } from "react";
+
+// function testComponent(){
+
+// const[items , setItems] = useState([10 , 20 ,30, 40]);
+
+// function removeItem(indexToRemove){
+//     setItems(prev => prev.filter((item , index) => index !== indexToRemove));
+// }
+
+// return(
+//     <div>
+//         {items.map((item , index) =>(
+//             <div key = {index}> 
+//             {item}
+//             <button onClick={()=> removeItem(index)}>Remove</button>
+//             </div>
+//         ))}
+//     </div>
+// )
+// }
+// export default testComponent();
+
+
+
+//USING MAP TO RENDER JSX ELEMENTS
+
+// function App(){
+//   const todos = [
+//   // {id:1, text:"Learn React"},
+//   // {id:2, text:"Build project"},
+//   // {id:3, text:"Apply for jobs"}
+// ];
+
+// return(
+//   <div>
+//     {todos.length === 0 && <p>No Todos Yet</p>}
+//     {todos.map(todo => (
+//     <ul>
+//       <li key = {todo.id}>{todo.text}</li>
+//     </ul>))}
+//   </div>
+// );
+// }
+
+// export default App;
+
+
+
+//TERNARY OPEARTOT IN REACT 
+
+//We have separated the concepts from App.jsx and written them in separate files and which one we have to call here we will simply import that.
+
+import TernaryOperator from "./concepts/ternaryOperator";
+
+function App(){
+  return(
+    <div>
+      <TernaryOperator/>
+    </div>
+  );
+}
+
+export default App;
