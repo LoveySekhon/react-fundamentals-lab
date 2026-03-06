@@ -115,12 +115,98 @@
 
 //We have separated the concepts from App.jsx and written them in separate files and which one we have to call here we will simply import that.
 
-import TernaryOperator from "./concepts/ternaryOperator";
+// import TernaryOperator from "./concepts/ternaryOperator";
+
+// function App(){
+//   return(
+//     <div>
+//       <TernaryOperator/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//EventHandling.jsx
+
+// import EventHandling from "./concepts/EventHandling";
+
+// function App(){
+//   return(
+//     <div>
+//       <EventHandling/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//EventParameters.jsx
+
+// import EventParameters from "./concepts/EventParameters";
+
+// function App(){
+//   return(
+//     <div>
+//       <EventParameters/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//DeleteTodoState.jsx
+
+// import DeleteTodoState from "./concepts/DeleteTodoState";
+
+// function App(){
+//   return(
+//     <div>
+//       <DeleteTodoState/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//AddTodoInput.jsx
+
+// import AddTodoInput from "./concepts/AddTodoInput";
+
+// function App(){
+//   return(
+//     <div>
+//       <AddTodoInput/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//ControlledInputPractice.jsx
+
+// import ControlledInputPractice from "./concepts/ControlledInputPractice";
+
+// function App(){
+//   return(
+//     <div>
+//       <ControlledInputPractice/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//ToggleTodo.jsx
+import ToggleTodo from "./concepts/ToggleTodo";
 
 function App(){
   return(
     <div>
-      <TernaryOperator/>
+      <ToggleTodo/>
     </div>
   );
 }
