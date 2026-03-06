@@ -201,12 +201,41 @@
 
 
 //ToggleTodo.jsx
-import ToggleTodo from "./concepts/ToggleTodo";
+// import ToggleTodo from "./concepts/ToggleTodo";
+
+// function App(){
+//   return(
+//     <div>
+//       <ToggleTodo/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//ConditionalRendering.jsx
+
+// import ConditionalRendering from "./concepts/ConditionalRendering";
+
+// function App(){
+//   return(
+//     <div>
+//       <ConditionalRendering/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//mini-project --> TodoApp
+
+import TodoApp from "./mini-projects/todo-app/TodoApp";
 
 function App(){
   return(
     <div>
-      <ToggleTodo/>
+      <TodoApp/>
     </div>
   );
 }
