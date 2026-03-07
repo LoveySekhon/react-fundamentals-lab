@@ -230,12 +230,41 @@
 
 //mini-project --> TodoApp
 
-import TodoApp from "./mini-projects/todo-app/TodoApp";
+// import TodoApp from "./mini-projects/todo-app/TodoApp";
+
+// function App(){
+//   return(
+//     <div>
+//       <TodoApp/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//SearchFilter.jsx
+// import SearchFilter from "./concepts/SearchFilter";
+
+// function App(){
+//   return(
+//     <div>
+//       <SearchFilter/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//UseEffect.jsx
+
+import UseEffect from "./concepts/UseEffect";
 
 function App(){
   return(
     <div>
-      <TodoApp/>
+      <UseEffect/>
     </div>
   );
 }
