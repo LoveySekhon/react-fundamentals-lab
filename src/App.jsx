@@ -1,5 +1,5 @@
 //UseState 
-// import { useState } from "react";
+ import { useState } from "react";
 
 // function App(){
 //     const[count , setCount] = useState(5);
@@ -259,12 +259,119 @@
 
 //UseEffect.jsx
 
-import UseEffect from "./concepts/UseEffect";
+// import UseEffect from "./concepts/UseEffect";
+
+// function App(){
+//   return(
+//     <div>
+//       <UseEffect/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//FetchApi.jsx
+
+// import FetchApi from "./concepts/FetchApi";
+
+// function App(){
+//   return(
+//     <div>
+//       <FetchApi/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//Timer.jsx
+
+// import Timer from "./mini-projects/timer with cleanup/Timer";
+
+// function App(){
+
+//   const[showTimer , setShowTimer] = useState(true);
+
+//   return(
+//     <div>
+//       <button onClick={()=> setShowTimer(!showTimer)}>{showTimer ? "Stop Timer" : "Start Timer"}</button>
+//       {showTimer &&<Timer/>}
+//     </div>
+//   );
+// }
+
+//export default App;
+
+//FetchApi using custom hook;
+
+// import FetchApi from "./concepts/FetchApi";
+
+// function App(){
+//   return(
+//     <div>
+//       <FetchApi/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//Toggle.jsx
+
+// import Toggle from "./concepts/Toggle";
+
+// function App(){
+//   return(
+//     <div>
+//       <Toggle/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//UseMemo.jsx
+
+// import UseMemo from "./concepts/UseMemo";
+
+// function App(){
+//   return(
+//     <div>
+//       <UseMemo/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//UseCallback.jsx
+
+// import UseCallback from "./concepts/UseCallback";
+
+// function App(){
+//   return(
+//     <div>
+//       <UseCallback/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+//PracticeReactRender.jsx
+
+import PracticeReactRender from "./concepts/PracticeReactRender";
 
 function App(){
   return(
     <div>
-      <UseEffect/>
+      <PracticeReactRender/>
     </div>
   );
 }
