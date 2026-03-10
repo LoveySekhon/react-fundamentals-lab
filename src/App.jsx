@@ -366,14 +366,44 @@
 
 //PracticeReactRender.jsx
 
-import PracticeReactRender from "./concepts/PracticeReactRender";
+// import PracticeReactRender from "./concepts/PracticeReactRender";
+
+// function App(){
+//   return(
+//     <div>
+//       <PracticeReactRender/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//UseRef.jsx
+
+// import UseRef from "./concepts/UseRef";
+
+// function App(){
+//   return(
+//     <div>
+//       <UseRef/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+//ControlledVsUncontrolledComponents.jsx
+
+import ControlledVsUncontrolledComponents from "./concepts/ControlledVsUncontrolledComponents";
 
 function App(){
   return(
     <div>
-      <PracticeReactRender/>
+      <ControlledVsUncontrolledComponents/>
     </div>
   );
 }
 
 export default App;
+
